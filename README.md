@@ -78,3 +78,10 @@ This project bridges **industrial-grade embedded control** with **cloud-based mo
 
 ## 🧭 System Architecture
 
+## 🧭 System Architecture
+
+![Proteus System Overview](images/proteus_overview.png)
+
+*Figure 1: Complete Proteus simulation showing LPC2148, sensor, LCD, keypad, buzzer, and ESP8266.*
+
+
