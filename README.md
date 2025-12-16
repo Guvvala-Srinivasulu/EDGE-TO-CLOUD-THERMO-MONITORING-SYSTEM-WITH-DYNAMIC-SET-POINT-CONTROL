@@ -56,7 +56,7 @@ This project bridges **industrial-grade embedded control** with **cloud-based mo
 | Keypad Columns | P1.16 – P1.23 | Column scan lines |
 | Buzzer | P0.6 | Alert indication |
 | ESP8266 TX/RX | UART0 | Cloud communication |
-|Interrupt|P0.14|Interrupt Rising|
+|Interrupt | P0.14 | Interrupt Rising |
 ---
 
 ## 🧩 Software Overview
@@ -78,5 +78,63 @@ This project bridges **industrial-grade embedded control** with **cloud-based mo
 
 ## 🧭 System Architecture
 
+![System Block Diagram](images/proteus_overview.png)  
+*Figure 1: Complete Proteus simulation showing LPC2148, sensor, LCD, keypad, buzzer, and ESP8266.*
 
+---
+
+## 🧑‍💻 User Guide
+
+1. Power on the system — LCD shows **current temperature and humidity**.
+2. Press the keypad to enter **dynamic set-point configuration mode**.
+3. Edit:
+   - Temperature Set-Point (°C)
+   - Humidity Set-Point (%)
+4. Confirm inputs using `=` key.
+5. System resumes **normal monitoring** with updated set-points.
+6. Alerts (buzzer) trigger automatically if thresholds are exceeded.
+7. Data is uploaded to **ThingSpeak** for cloud visualization.
+
+---
+
+## ⚠ Known Issues
+
+- **ESP8266 Wi-Fi Connection:** Sometimes requires reset after long idle periods.
+- **Threshold Edge Cases:** Setting temperature/humidity exactly at sensor min/max may not trigger alert correctly.
+- **LCD Display:** Blinking may occur if multiple updates happen within milliseconds.
+- **Cloud Delay:** ThingSpeak data refresh may show a 15–20 second delay.
+
+---
+
+## 📸 Project Images / Screenshots
+
+### Proteus Simulation Overview
+![Proteus System Overview](images/proteus_overview.png)  
+*Figure 2: LPC2148, sensor, LCD, keypad, buzzer, and ESP8266 in Proteus.*
+
+### LCD & Keypad Interaction
+![LCD & Keypad](images/proteus_lcd_keypad.png)  
+*Figure 3: Display shows live sensor values; keypad used for set-point configuration.*
+
+### ESP8266 Cloud Communication
+![ESP8266 ThingSpeak Upload](images/proteus_esp8266.png)  
+*Figure 4: Real-time temperature and humidity data being uploaded to ThingSpeak.*
+
+### Cloud Visualization
+![ThingSpeak Graph](images/proteus_cloud_output.png)  
+*Figure 5: Graphical representation of temperature & humidity trends on ThingSpeak.*
+
+---
+
+## 💡 Future Enhancements
+
+- Multi-sensor integration (multiple temperature & humidity sensors)  
+- Wireless remote configuration via mobile or web interface  
+- Energy optimization by triggering connected devices based on thresholds  
+- Historical data logging with cloud analytics for predictive maintenance  
+- Backup memory (EEPROM/Flash) to store thresholds during power loss  
+- Graphical OLED or TFT display for improved UI  
+- Mobile notifications (SMS/Email) on threshold violations  
+
+---
 
