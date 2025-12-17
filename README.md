@@ -109,7 +109,7 @@ This project bridges **industrial-grade embedded control** with **cloud-based mo
 ## 📸 Project Images / Screenshots
 
 ### Proteus Simulation Overview
-![Proteus System Overview](images/proteus_overview.png)  
+![image alt](https://github.com/Guvvala-Srinivasulu/EDGE-TO-CLOUD-THERMO-MONITORING-SYSTEM-WITH-DYNAMIC-SET-POINT-CONTROL/blob/667b06d9f471f2a672399fdc9f9af26487d01e7c/Hardware%20Look/IMG_20251217_163253_359.jpg)  
 *Figure 2: LPC2148, sensor, LCD, keypad, buzzer, and ESP8266 in Proteus.*
 
 ### LCD & Keypad Interaction
