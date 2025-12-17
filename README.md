@@ -79,41 +79,7 @@ This project bridges **industrial-grade embedded control** with **cloud-based mo
 ## 🧭 System Architecture
 
 ![image alt](https://github.com/Guvvala-Srinivasulu/EDGE-TO-CLOUD-THERMO-MONITORING-SYSTEM-WITH-DYNAMIC-SET-POINT-CONTROL/blob/667b06d9f471f2a672399fdc9f9af26487d01e7c/Hardware%20Look/IMG_20251217_163253_359.jpg)  
-*Figure 1: Complete Proteus simulation showing LPC2148, sensor, LCD, keypad, buzzer, and ESP8266.*
-
-
-+-----------------------------+
-|        Temperature Sensor   |
-|        (LM35 / DHT / NTC)   |
-+-------------+---------------+
-              |
-              v
-+-----------------------------+
-|     Edge Controller         |
-|  (Microcontroller Unit)     |
-|                             |
-| - ADC / Sensor Interface    |
-| - Data Processing           |
-| - Dynamic Set Point Logic   |
-| - Local Decision Making     |
-| - Alarm / Actuator Control  |
-+-------------+---------------+
-              |
-              v
-+-----------------------------+
-|   Communication Interface   |
-| (Wi-Fi / GSM / Ethernet)    |
-|  - MQTT / HTTP Protocol     |
-+-------------+---------------+
-              |
-              v
-+-----------------------------+
-|         Cloud Platform      |
-|                             |
-| - Data Storage              |
-| - Data Analytics            |
-| - Threshold Monitoring      |
-| - Dashboard Visualization
+*Figure 1: Complete Proteus simulation showing LPC2148, sensor, LCD, keypad, buzzer, and ESP826.*
 ---
 
 ## 🧑‍💻 User Guide
