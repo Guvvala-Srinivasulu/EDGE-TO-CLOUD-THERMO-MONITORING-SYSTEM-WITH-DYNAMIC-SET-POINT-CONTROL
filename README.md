@@ -107,7 +107,7 @@ This project bridges **industrial-grade embedded control** with **cloud-based mo
 
 ## 📸 Project Images / Screenshots
 
-### Proteus Simulation Overview
+### AT Commands of ESP8266 ESP-01 WiFi Module via serial (UART)
 ![image alt](https://github.com/Guvvala-Srinivasulu/EDGE-TO-CLOUD-THERMO-MONITORING-SYSTEM-WITH-DYNAMIC-SET-POINT-CONTROL/blob/main/Hardware%20Look/IMG_20251217_151027_819.jpg?raw=true)
 *Figure 2: LPC2148, sensor, LCD, keypad, buzzer, and ESP8266 in Proteus.*
 
