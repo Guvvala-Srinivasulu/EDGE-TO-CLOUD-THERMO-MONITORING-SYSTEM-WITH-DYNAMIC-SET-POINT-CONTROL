@@ -123,12 +123,9 @@ This project bridges **industrial-grade embedded control** with **cloud-based mo
 ![image alt](https://github.com/Guvvala-Srinivasulu/EDGE-TO-CLOUD-THERMO-MONITORING-SYSTEM-WITH-DYNAMIC-SET-POINT-CONTROL/blob/main/Hardware%20Look/IMG_20251217_151337_393.jpg?raw=true)
 *Figure : Warning Indication when temperature or humidity reaches to setpoint.*
 
-### ESP8266 Cloud Communication
-![image alt](https://github.com/Guvvala-Srinivasulu/EDGE-TO-CLOUD-THERMO-MONITORING-SYSTEM-WITH-DYNAMIC-SET-POINT-CONTROL/blob/main/Hardware%20Look/IMG_20251217_151047_226.jpg?raw=true) 
-
 ### Cloud Visualization
-![ThingSpeak Graph](images/proteus_cloud_output.png)  
-*Figure 5: Graphical representation of temperature & humidity trends on ThingSpeak.*
+![image alt](https://github.com/Guvvala-Srinivasulu/EDGE-TO-CLOUD-THERMO-MONITORING-SYSTEM-WITH-DYNAMIC-SET-POINT-CONTROL/blob/main/Hardware%20Look/Screenshot%202026-03-26%20153225.png?raw=true)
+*Figure : Graphical representation of temperature & humidity trends on ThingSpeak.*
 
 ---
 
