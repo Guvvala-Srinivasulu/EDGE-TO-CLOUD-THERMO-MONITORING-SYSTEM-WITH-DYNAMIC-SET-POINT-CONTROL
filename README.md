@@ -52,8 +52,8 @@ This project bridges **industrial-grade embedded control** with **cloud-based mo
 | LCD Data | P0.16 – P0.23 | 8-bit LCD data bus |
 | LCD RS | P0.8 | Register select |
 | LCD EN | P0.9 | Enable signal |
-| Keypad Rows | P1.20 – P1.19 | Row scan lines |
-| Keypad Columns | P1.16 – P1.23 | Column scan lines |
+| Keypad Rows | P1.20 – P1.23 | Row scan lines |
+| Keypad Columns | P1.16 – P1.19 | Column scan lines |
 | Buzzer | P0.6 | Alert indication |
 | ESP8266 TX/RX | UART0 | Cloud communication |
 |Interrupt | P0.14 | Interrupt Rising |
