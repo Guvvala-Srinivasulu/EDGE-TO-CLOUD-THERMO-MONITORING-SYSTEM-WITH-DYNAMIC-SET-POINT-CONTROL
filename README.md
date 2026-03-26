@@ -120,7 +120,7 @@ This project bridges **industrial-grade embedded control** with **cloud-based mo
 *Figure : Temperature setting point*
 
 ### Warning Indication in LCD
-![image alt]((https://github.com/Guvvala-Srinivasulu/EDGE-TO-CLOUD-THERMO-MONITORING-SYSTEM-WITH-DYNAMIC-SET-POINT-CONTROL/blob/main/Hardware%20Look/IMG_20251217_151337_393.jpg?raw=true))
+![image alt](https://github.com/Guvvala-Srinivasulu/EDGE-TO-CLOUD-THERMO-MONITORING-SYSTEM-WITH-DYNAMIC-SET-POINT-CONTROL/blob/main/Hardware%20Look/IMG_20251217_151337_393.jpg?raw=true)
 *Figure : Warning Indication when temperature or humidity reaches to setpoint.*
 
 ### ESP8266 Cloud Communication
