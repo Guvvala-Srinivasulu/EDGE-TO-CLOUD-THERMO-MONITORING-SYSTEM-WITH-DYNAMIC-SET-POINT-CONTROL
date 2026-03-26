@@ -109,15 +109,22 @@ This project bridges **industrial-grade embedded control** with **cloud-based mo
 
 ### AT Commands of ESP8266 ESP-01 WiFi Module via serial (UART)
 ![image alt](https://github.com/Guvvala-Srinivasulu/EDGE-TO-CLOUD-THERMO-MONITORING-SYSTEM-WITH-DYNAMIC-SET-POINT-CONTROL/blob/main/Hardware%20Look/IMG_20251217_151027_819.jpg?raw=true)
-*Figure 2: LPC2148, sensor, LCD, keypad, buzzer, and ESP8266 in Proteus.*
 
-### LCD & Keypad Interaction
-![LCD & Keypad](images/proteus_lcd_keypad.png)  
-*Figure 3: Display shows live sensor values; keypad used for set-point configuration.*
+### LCD View Temperature and Humidity
+![image alt](https://github.com/Guvvala-Srinivasulu/EDGE-TO-CLOUD-THERMO-MONITORING-SYSTEM-WITH-DYNAMIC-SET-POINT-CONTROL/blob/main/Hardware%20Look/IMG_20251217_151034_614.jpg?raw=true)  
+
+### Setpoint Editing Options in LCD
+![image alt](https://github.com/Guvvala-Srinivasulu/EDGE-TO-CLOUD-THERMO-MONITORING-SYSTEM-WITH-DYNAMIC-SET-POINT-CONTROL/blob/main/Hardware%20Look/IMG_20251217_151047_226.jpg?raw=true) 
+
+![image alt](https://github.com/Guvvala-Srinivasulu/EDGE-TO-CLOUD-THERMO-MONITORING-SYSTEM-WITH-DYNAMIC-SET-POINT-CONTROL/blob/main/Hardware%20Look/IMG_20251217_151115_128.jpg?raw=true)
+*Figure : Temperature setting point*
+
+### Warning Indication in LCD
+![image alt]((https://github.com/Guvvala-Srinivasulu/EDGE-TO-CLOUD-THERMO-MONITORING-SYSTEM-WITH-DYNAMIC-SET-POINT-CONTROL/blob/main/Hardware%20Look/IMG_20251217_151337_393.jpg?raw=true))
+*Figure : Warning Indication when temperature or humidity reaches to setpoint.*
 
 ### ESP8266 Cloud Communication
-![ESP8266 ThingSpeak Upload](images/proteus_esp8266.png)  
-*Figure 4: Real-time temperature and humidity data being uploaded to ThingSpeak.*
+![image alt](https://github.com/Guvvala-Srinivasulu/EDGE-TO-CLOUD-THERMO-MONITORING-SYSTEM-WITH-DYNAMIC-SET-POINT-CONTROL/blob/main/Hardware%20Look/IMG_20251217_151047_226.jpg?raw=true) 
 
 ### Cloud Visualization
 ![ThingSpeak Graph](images/proteus_cloud_output.png)  
